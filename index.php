@@ -13,7 +13,6 @@ if (isset($_SESSION["users"])){
         <th>Id</th>
         <th>First Name</th>
         <th>Last Name</th>
-        <th>Actions</th>
     </tr>";
     foreach($_SESSION["users"] as $user)
     {
